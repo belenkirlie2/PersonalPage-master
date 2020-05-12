@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    </head>
+
+    
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="IMG/logo belu fondo blanco (512p).png" alt="logo">
+           
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#portada">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formulario">Certificaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactForm">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="portada">
+        <div class="container-fluid">
+          <div class="row pb-4 mb-4">
+              <div class="col-12 col-lg-5 col-md-6 pl-2">
+                  <img src="IMG/yo.jpg" class="img-responsive center-block animated fadeInLeft"/>
+                </div>
+            
+            <div class="col-12 col-lg-7 text-center">
+              <p class="h1 animated fadeInDown">Belen Ruarte</p>
+              <p class="h2">Desarrolladora web frontend</p>
+              <p>Hace un año y medio me dedico al desarrollo frontend, durante este camino he desarrolloda proyectos junto al equipo de kobiq IT
+                sumando la experiencia que necesitaba, utlizando metodologias agiles.
+              </p>
+              <div class="row mt-4 pt-3">
+                  
+                <button type="button" class="btn btn-cv col-5 mr-2 ml-4"><a download="Cv belen" href="IMG/CV BELEN RUARTE.pdf"></a>Curriculum</button>
+                <button type="button" class="btn btn-contacto col-5 ">Contacto</button>
+              </div>
+              </div>
+          </div>
+          <section id="sobre-mi" class="pt-4">
+          <p  class="h3 text-center mt-4">Sobre Mi</p>
+          <p class="text-center mt-4 pb-4">Soy una persona responsable, sociable, autodidacta, nunca dejo de aprender, <Br>
+            me gustan los desafios y trabajar en equipo. Apasiona por la informatica desde niña,  <br>
+            en los ultimos años estuve aprendiendo robótica por hobby y colaborando activamente en la organizacion <br>
+             mTech Jujuy, que tiene como objetivo acercar a las mujeres al mundo de la programación. <br>
+            Mi objetivo es desarrollarme profesionalmete y evolucionar en el sector IT.</p>
+          
+        </div>
+      </section>
+      </section>
+      
+       <!-- tecnologias -->
+    <section id="tecnologias" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <p class="h3">Tecnologias</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="IMG/html custom (512p).png" >
+              <div class="card-body">
+                <div class="badges">
+                </div>
+                <h5 class="card-title text-center">HTML</h5>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="IMG/CSS Custom.jpeg" >
+              <div class="card-body">
+                <div class="badges">
+                </div>
+                <h5 class="card-title text-center">CSS</h5>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" src="IMG/photo4983641280617752650.jpg" >
+                <div class="card-body">
+                  <div class="badges">
+                  </div>
+                  <h5 class="card-title text-center">JS</h5>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img class="card-img-top" src="IMG/bootstrap custom (512p).png" >
+                  <div class="card-body">
+                    <div class="badges">
+                    </div>
+                    <h5 class="card-title text-center">BOOTSTRAP</h5>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" src="IMG/react.png" >
+                    <div class="card-body">
+                      <div class="badges">
+                      </div>
+                      <h5 class="card-title text-center">REACT</h5>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                      <img class="card-img-top center-block" src="IMG/firebase custom.png" >
+                      <div class="card-body">
+                        <div class="badges">
+                        </div>
+                        <h5 class="card-title text-center">FIREBASE</h5>
+                        
+                      </div>
+                    </div>
+                  </div>
+        </div>
+      </div>
+    </section>
+    <!-- /tecnologias -->
+
+    <!--educacion-->
+    
+      <!-- /educacion-->
+
+     <!-- portfolio -->
+     <p class="h3 text-center pb-4">Proyectos recientes</p>
+     <section id="portfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="IMG/laptop-programacion-1024x565.jpg" alt="" />
+          </div>
+          <div class="col-12 col-lg-6 pt-4 pb-4">
+            <h2>Emprendedores jujeños</h2>
+            <p>
+              Somos Accion Web y nos dedicamos a brindar soluciones de comercialización, logística y
+              comunicación para los emprendedores de la provincia de Jujuy.
+              Nuestra misión es crear y fortalecer canales de comercialización on 
+              line para los miles de productos que generan los emprendedores de cada una de las localidad, 
+              pueblos y ciudades de nuestra provincia.
+              Durante todo el año 2018 trabajamos en la búsqueda de diferentes formas de comercialización de los productos emprendedores, y creamos las góndolas exclusivas de comercialización de productos emprendedores en los almacenes y negocios del barrio.
+
+Finalmente, y luego de varias experiencias de participación en las ferias de emprendedores municipales y provinciales decidimos crear la tienda on line de productos emprendedores, que en este momento estamos presentando como
+
+emprendedores jujeños.com
+
+Esta es una experiencia superadora y trascendental que ya está haciendo historia en nuestra provincia y en el mundo.
+            </p>
+            <a class="btn btn-portfolio" href="https://emprendedoresjujeños.com/">Ir al sitio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="portfolio">
+      <div class="container-fluid">
+        <div class="row">
+        
+          <div class="col-12 col-lg-6 pt-4 pb-4">
+            <h2>F-L Bursatil</h2>
+            <p>
+              F-L BURSÁTIL es una consultora joven que nace en el mes de abril de 2020, en la provincia de Jujuy, teniendo como base la consultora José Luis Flores creada en octubre de 2019. Actualmente dirigida por José Luis Flores y Emilce Agustina López.
+
+Partimos con una cartera de clientes del sector agro, pero llegamos a sus manos seguros de ofrecerle en todo momento la calidad de nuestros servicios.
+
+Nos dedicamos al asesoramiento financiero en Mercado de Capitales a personas físicas y jurídicas.
+            </p>
+            <a class="btn btn-portfolio" href="https://flbursatil.com.ar/">Ir al sitio</a>
+          </div>
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+              <img src="IMG/Extensiones-para-diseñadores-y-desarrolladores-web.jpg" alt="" />
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- /portfolio -->
+
+     <!-- formulario -->
+     <section id="contactForm" class="pt-3 pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <p class="h3">Contacto</p>
+           
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              Ante cualquier consulta no dudes en  
+              escribirme.
+              <br>
+              Me encargo de hacer realidad tus proyectos.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-12 col-md-6">
+                    <input id="nombre" type="text" class="form-control" placeholder="Nombre y apellido">
+                  </div>
+                  <div class="form-group col-12 col-md-6">
+                    <input id="email" type="text" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <textarea id="mensaje" name="text" class="form-control form-control-lg" placeholder="Consulta"></textarea>
+                 
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <button id="guardar" onclick="guardar()" type="button" class="btn btn-formulario btn-block">Enviar</button>
+                  </div>
+                </div>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /formulario -->
+   
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-2 pt-2">
+        <div class="container">
+          <div class="row text-center">
+            <div id="texto" class="col-12 col-lg">
+              <p>Copyright 2020 - Belen Ruarte</p>
+            </div>
+         
+           
+          
+          </div>
+        </div>
+      </footer>
+      <!-- /Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    
+    
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

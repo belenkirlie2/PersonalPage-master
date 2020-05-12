@@ -1,0 +1,119 @@
+#header{
+    background-color: #563d7c;
+    
+}
+
+#header img{
+    height: 40px;
+    border: 2px
+}
+
+.nav-link{
+    color: azure;
+}
+.navbar-brand img{
+  filter: grayscale(70%)
+
+}
+
+.h1{
+    margin-top: 100px;
+    color:  #434190 !important;
+    font-size: 4rem !important;
+    font-weight: 700 !important;
+
+}
+
+.h3{
+    font-size: 3rem;
+    color: #434190 !important;
+    font-weight: 400 !important;
+}
+
+
+#portada img{
+    height: 360px;
+    border-radius: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+   
+}
+.btn-cv:hover{
+    background-color: #3c366b;
+    color: white;
+    font-weight: 700;
+  }
+
+  .btn-cv{
+    background-color: #e2e8f0;
+    color: #3c366b;
+    font-weight: 700;
+    border: 2px solid #3c366b;
+  }
+  
+  .btn-portfolio:hover{
+    background-color: #3c366b;
+    color: white;
+  
+  }
+  .btn-portfolio{
+    background-color: #e2e8f0;
+    color: #3c366b;
+    border: 2px solid #3c366b;
+  }
+
+  
+  .btn-formulario:hover{
+    background-color: #3c366b;
+    color: white;
+  
+  }
+  .btn-formulario{
+    background-color: white;
+    color: #3c366b;
+    border: 2px solid #3c366b;
+  }
+
+  .btn-contacto {
+    background-color:  #3c366b;
+    color: white;
+    font-weight: 700;
+    border: 2px solid #3c366b;
+
+  }
+  .btn-contacto:hover{
+    background-color:  #4c51bf;
+    color: white;
+    font-weight: 700;
+    border: 2px solid #3c366b;
+
+  }
+  
+  .container-fluid{
+      background-color: #e2e8f0;
+  }
+  
+
+  
+  .card-img-top{
+    width: 100px; height: 100px;
+    display:block;
+    margin:auto;    
+}
+
+
+#portfolio img {
+  max-width: 100%;
+  filter: grayscale(100%)
+}
+  
+#footer{
+  background-color: #563d7c;
+  color: #e2e8f0
+}
+
+#texto{
+  color: white;
+}
+
